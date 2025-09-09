@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto WEB IDW 2025</title>
+    
+    <link href="./css/root.css" rel="stylesheet">
+    <link href="./css/estilo.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- comentário -->
+    <header id="cabecalho">
+        <div id="logo">
+            <figure>
+                <img src="./imagens/fotoperfil1.jpg" alt="Foto de perfil de José Pedro" 
+                title="Foto de perfil de José Pedro">
+            </figure>
+        </div>
+        <nav id="menu">
+            <ul>
+                <li><a href = "#home">Home</a></li>
+                <li><a href = "#sobreMim">Sobre mim</a></li>
+                <li><a href = "#portifolio">Portifólio</a></li>
+                <li><a href = "#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="home">
+            <!-- colocar uma imagem grande como background-->
+            <h1 class="titulo-principal">
+                Bem vindo ao meu portifólio
+            </h1>
+        </div>
+        <section id="sobreMim">
+            <header>
+                <h1>Sobre Mim</h1>
+            </header>
+            <div id="sobreMimContainer">
+                <div>
+                    <p class="personalizado">Olá, eu sou o José Pedro :)</p>
+                    <p class="curriculo">Estudante de Ti para: Desenvolvimento WEB</p>
+                    <p class="descricao">
+                Sou estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia e sempre em busca de novos conhecimentos na área de TI. Atualmente, atuo como Assistente de Infraestrutura, onde tenho a oportunidade de lidar com suporte técnico, manutenção de redes, gerenciamento de servidores e outras demandas essenciais para garantir a estabilidade e segurança dos ambientes de TI.
+                    </p>
+                </div>
+                <figure>
+                    <img src="./imagens/fotoperfil1.jpg" alt="Foto de perfil de José Pedro" 
+                    title="Foto de perfil de José Pedro">
+                </figure>
+            </div>
+            
+            <h2>Habilidades</h2>
+            <div class="habilidade">    
+                <article>
+                    <header><h3>Cabeamento de redes
+                    </h3></header>
+                    <figure>
+                        <img src="./imagens/cabeamento.png.jpg" width="50" height="70">
+                    </figure>
+                </article>
+                <article>
+                    <header><h3>Manutenção de servidores</h3></header>
+                    <figure>
+                        <img src="./imagens/manutencao.png" width="50" height="70">
+                    </figure>
+                </article>
+                <article>
+                    <header><h3>Instalação de câmeras</h3></header>
+                    <figure>
+                        <img src="./imagens/cameras.png" width="50" height="70">
+                    </figure>
+                </article>
+                <article>
+                    <header><h3>Manutenção de hardware</h3></header>
+                    <figure>
+                        <img src="./imagens/hardware.png" width="50" height="70">
+                    </figure>
+                </article>
+                <article>
+                    <header><h3>Suporte ao usuário</h3></header>
+                    <figure>
+                        <img src="./imagens/helpdesk.png" width="50" height="70">
+                    </figure>
+                </article>
+                <article>
+                    <header><h3>Segurança da informação</h3></header>
+                    <figure>
+                        <img src="./imagens/segurança.png" width="50" height="70">
+                    </figure>
+                </article>
+            </div>
+        </section>
+
+        <section id="portifolio">
+            <header id="portifolioCabecalho">
+                <h1>Portifólio</h1>
+            </header>
+            <p>Aqui estão alguns dos projetos legais que participei enquanto trabalhava como Assistente de Infraestrutura de TI, experiências que ajudaram a moldar minha trajetória na área!</p>
+            
+            <!-- incluir uma div revestindo os articles e colocar como classe portifolios-->
+          
+          <div id="portifolios"> 
+            <article>
+                <header>
+                    <figure>
+                        <img src="./imagens/redes.jpg" alt="Redes e servidores" title="Redes e servidores">
+                    </figure>
+                    <h2>Redes e servidores </h2>
+                </header>
+                    <!--Breve descrição do projeto.-->
+                    <p>• Criar uma topologia de rede usando VMware/VirtualBox ou GNS3/EVE-NG.</p>
+                    <p>• Configuração de switches e roteadores simulados.</p>
+                    <p>• Implantar VLANs, ACLs, roteamento dinâmico (OSPF/BGP).</p>
+            </article>
+
+            <article>
+                <header>
+                    <figure>
+                        <img src="./imagens/security.jpg" alt="Segurança" title="Segurança">
+                    </figure>
+                    <h2>Segurança</h2>
+                </header>
+                    <!--Breve descrição do projeto.-->
+                    <p>• Instalar pfSense ou OPNsense</p>
+                    <p>• Configurar regras de firewall, VPN site-to-site e proxy web.</p>
+                    <p>• Criar checklist e aplicar boas práticas de segurança em Linux/Windows.</p>
+            </article>
+
+            <article>
+                <header>
+                    <figure>
+                        <img src="./imagens/automacao.jpg" alt="Automação e Scripting" title="Automação e Scripting">
+                    </figure>
+                    <h2>Automação e Scripting</h2>
+                </header>
+                    <!--Breve descrição do projeto.-->
+                    <p>• Provisionar usuários em massa.</p>
+                    <p>• Monitorar espaço em disco e enviar alertas.</p>
+                    <p>• Automatizar updates de servidores.</p>
+            </article>
+
+            <article>
+                <header>
+                    <figure>
+                        <img src="./imagens/cloud.jpg" alt="Cloud & Virtualização" title="Cloud & Virtualização">
+                    </figure>
+                    <h2>Cloud & Virtualização</h2>
+                </header>
+                    <!--Breve descrição do projeto.-->
+                    <p>• Montar um cluster Kubernetes em VMs ou na nuvem.</p>
+                    <p>• Implantar um aplicativo simples (ex.: site em containers).</p>
+                    <p>• Configurar balanceamento de carga e persistência de dados.</p>
+            </article>
+        </div><!-- fechando o div portifólios-->
+        </section>
+
+        <section id="contato">
+            
+            <div class="container">
+                <div class="formulario"><header>
+                <h1>Contato</h1>
+            </header> 
+                    <p>Suporte especializado em infraestrutura de TI, com foco em estabilidade, segurança e eficiência para o ambiente tecnológico da sua empresa.</p>
+                    <form>
+                        <input type="text" placeholder="Informe seu nome">
+                        <input type="email" placeholder="Informe seu e-mail">
+                        <button type="submit">Enviar</button>
+                    </form>
+                    <div class="maisContato">
+                        <h2>Meus contatos</h2>
+                        <p class="detalhe"> Telefone para contato: 44 99116-3226</p>
+                        <p class="detalhe">Rua Moscados, 30 - Vila Marumby. CEP: 87005-150 </p>                    </div>
+                </div>
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.3903483185236!2d-51.9241172!3d-23.4463802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ecd0a5b64a615b%3A0x4c339e569ef3ae8d!2sR.%20Moscados%2C%2030%20-%20Vila%20Marumby%2C%20Maring%C3%A1%20-%20PR%2C%2087005-150!5e0!3m2!1spt-BR!2sbr!4v1757120225337!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div id="footerMenu">
+            <ul>
+                <li><a href = "#home">Home</a></li>
+                <li><a href = "#sobreMim">Sobre mim</a></li>
+                <li><a href = "#portifolio">Portifólio</a></li>
+            </ul>
+        </div>
+        
+        <div id="copy">Desenvolvido por José Pedro - 2025<br>Faculdade Senac</div>
+        <div id="redesSociais">
+            <a href="#"><img src="./imagens/insta.png"></a>
+            <a href="#"><img src="./imagens/facebook.png"></a>
+            <a href="#"><img src="./imagens/linkedin.png"></a>
+            <a href="#"><img src="./imagens/github.png"></a>  
+        </div>
+    </footer>
+</body>
+</html>
